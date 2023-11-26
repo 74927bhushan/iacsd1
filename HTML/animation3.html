@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            width: 300px;
+            height: 200px;
+            border: 4px solid red;
+            border-radius: 10px;
+            float: left;
+            margin: 20px;
+        }
+
+        #formdiv{
+            padding: 30px;
+            width: 200px;
+            height: 200px;
+        }
+        @keyframes blinker {
+            50%{
+                opacity: 0;
+            }
+
+            
+        }
+        .blink{
+            color: darkseagreen;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            animation: blinker 1.5sec linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <marquee direction="left" height="100px" scrollamount="12" class="blink">this is moving text</marquee>
+    <div>
+       <img src="./images/flowers.png" width="300px" height="100px">
+       <p style="margin-left:30%">Flowers </p>
+    </div>
+    <div>
+        <table style="height:200px" border="2" bgcolor="cyan"  >
+            <caption align="bottom">This is table 1</caption>
+            <tr>
+                <th colspan="4">Product Details</th>
+            </tr>
+            <tr bgcolor="blue">
+                <th>product id</th>
+                <th>product name</th>
+                <th>product quantity</th>
+                <th>product price</th>
+            </tr>
+            <tr>
+                <td bgcolor="pink" align="center" valign="top" rowspan="2">10</td>
+                <td>Chair</td>
+                <td>45</td>
+                <td>4000.00 Rs</td>
+            </tr>
+            <tr>
+                
+                <td>Table</td>
+                <td>50</td>
+                <td>5000.00 Rs</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>shelf</td>
+                <td>34</td>
+                <td>2000.00 Rs</td>
+            </tr>
+        </table>
+    </div>
+    <div id="formdiv">
+        <form action="file1" method="get">
+            <table >
+            <tr >
+                <td><label>user name :</label> </td>
+                <td><input type="text" name="uname" id="uname" autofocus placeholder="enter username" required  minlength="3" maxlength="8" pattern="^[A-Za-z].*"></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><input type="password" name="pass" id="pass" placeholder="enter password" required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><!--<input type="submit" name="btn" id="btn" value="login"/>-->
+                    <!-- submit button submits data to server -->
+                    <button type="submit" name="btn" id="login" value="login">Login</button>
+                    <!-- reset button clears the form -->
+                    <button type="reset" name="btn" id="cancel" value="cancel">Cancel</button>
+                </td>
+            
+        </tr>
+        </table>
+        </form>
+        <a href="forgotpassform.html">forgot password</a>&nbsp;&nbsp;
+        <a href="registerform.html">Register me</a>
+    </div>
+
+</body>
+</html>
