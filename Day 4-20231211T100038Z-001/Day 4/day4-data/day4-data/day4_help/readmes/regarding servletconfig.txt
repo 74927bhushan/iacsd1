@@ -1,0 +1,50 @@
+Regarding SERVLET CONFIG	
+
+A servlet specific configuration object created by a servlet container to pass information to a servlet during initialization.
+
+1. Represents Servlet specific configuration.
+Defined in javax.servlet.ServletConfig -- interface.
+
+2. Who creates its instance  ?
+Web container(WC)
+3. When ?
+After WC creates servlet instance(via def constr), ServletConfig instance is created & then it invokes init() method of the servlet.
+4. Usage
+To store servlet specific init parameters.
+(i.e the init-param is accessible to one servlet only or you can say that the init-param data is private for a particular servlet.)
+
+5. Where to add servlet specific init parameters?
+Can be added either in web.xml or @WebServlet annotation.
+
+XML Tags
+<servlet>
+    <servlet-name>init</servlet-name>
+    <servlet-class>ex.TestInitParam</servlet-class>
+    <init-param>
+      <param-name>name</param-name>
+      <param-value>value</param-value>
+    </init-param>
+</servlet>
+<servlet-mapping>
+<servlet-name>init</servlet-name>
+<url-pattern>/test_init</url-pattern>
+</servlet-mapping>
+
+OR 
+@WebServlet(value="/test", initParams={@WebInitParam(name="nm1",value="val1"),@WebInitParam(name="nm2",value="val2")})
+public class MyServlet extends HttpServlet {....}
+
+6. How to access servlet specific init params from a servlet ?
+6.1 Override init() method
+6.2 Get ServletConfig
+Method of Servlet i/f 
+public ServletConfig getServletConfig()
+6.3 Get the init params from ServletConfig
+Method of ServletConfig i/f
+String getInitparameter(String paramName) : rets the param value.
+
+
+
+
+
+

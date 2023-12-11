@@ -1,0 +1,117 @@
+Day 1
+1. import day1.2 , to revise DB layered application
+(Edit build path n user name , password)
+
+Hands on : 
+1. Refer to online voting case study
+Prepare DAO, POJO layers , Write a simple tester/s to test it in standalone application.
+
+1.0 Copy candidates table from "day1-data\day1_help\jdbc help\sql\voting sql.txt" n also copy data
+
+1.1 List all candidates
+
+Table : candidates
+POJO : Candidate
+DBUtils : copy
+DAO : CandidateDao i/f
+List<Candidate> getAllCandidates() throws SE
+CandidateDaoImpl
+1. import : java.sql , import static : utils
+2. state : cn , pst1
+3. def ctor : openCn , pst1=cn.prepareStatement(sql);
+4. clean up : close pst1, cn
+5. getAllCandidates() : exec query --RST --while loop --ORM 
+
+ListAllCandidates : Tester (main)
+1. create dao instance
+2. invoke dao's method --list.forEach(...);
+3. dao's cleanup.
+
+
+1.2 Increment candidate's votes
+i/p : candidate id
+
+1.3 Display details of top 2 candidates , having max votes
+
+1.4 Display partywise votes 
+(eg : BJP 50 , Congress 29 ...)
+
+2. Add tomcat web server in Eclipse(STS 3.9.18) IDE.
+(Refer : "day1-data\day1_help\Web Server n Java EE docs\Installation steps for Tomcat.txt")
+
+
+Reading H.W
+Today's sequence 
+SQL Injection readme.
+
+
+
+Day 2
+1. Follow all the steps from "day2-data\day2_help\Steps.txt"
+DO NOT repeat the steps , if you have done them yesterday.
+
+1.1 Create n deploy the servlet using annotations n xml tags
+
+2. Start with case study for New Voter Registration
+Try it out .
+OR
+Complete pending steps from Day 1
+
+3. In the individual labs 
+3.1 import day2.1 , to revise invocation of a stored procedure.
+3.2 import day2_web for servlets.
+
+
+3. MANDATORY Reading  H.W
+3.1 "day2-data\day2_help\JDBC sequence.txt"
+3.2 "day2-data\day2_help\sequence.txt"
+
+
+Day 3
+1. import day3.1 in your workspace , to revise
+1.1 Redirect scenario (page navigation)
+1.2 Cookie based session tracking
+
+2. import day3.2 in your workspace , to revise
+
+2.1 HttpSession i/f based  session tracking
+
+3. Mandatory Hands on 
+Add a Link : Sign Up , in login.html
+Submit it to voter_register.html(Already supplied in today's help.)
+ Accept first name , last name , email , password , dob from user.
+Submit the form to VoterRegistrationServlet
+Validate user's age . In case of valid age , use dao layer to insert a record in DB.
+In case of successful insertion , Add a link : Login Again ---> login.html
+In case of failure  ,display failure message ,  Add a link : Back  ---> voter_registration.html
+
+
+
+
+Day 4
+1. import day4.1 in your workspace. Edit DB password from DBUtils . Trace complete flow.
+(Voter flow)
+
+2. import day4.2  in your workspace. Edit DB password from web.xml . 
+Revise ServletConfig with the Voter flow
+
+3. import day4.3 in your workspace. Revise RequestDispatcher's forward scenario
+(Student admission w/o DB)
+
+4. import day4.4 in your workspace. Revise RequestDispatcher's include scenario
+(Student admission w/o DB)
+
+
+
+
+Hands on
+1. Complete pending work.(Voter Registration)
+
+2. Complete Admin Flow.
+
+OR
+
+3. Try something completely new ! 
+IPL assignment . Use supplied tables (teams n players) , follow assignment help n try it out.
+
+Even if you solve one of above , you will get confidence in servlets.
