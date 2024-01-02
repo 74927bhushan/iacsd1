@@ -1,0 +1,14 @@
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\bin\Debug\net8.0\customer1.exe
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\bin\Debug\net8.0\customer1.deps.json
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\bin\Debug\net8.0\customer1.runtimeconfig.json
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\bin\Debug\net8.0\customer1.dll
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\bin\Debug\net8.0\customer1.pdb
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\obj\Debug\net8.0\customer1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\obj\Debug\net8.0\customer1.AssemblyInfoInputs.cache
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\obj\Debug\net8.0\customer1.AssemblyInfo.cs
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\obj\Debug\net8.0\customer1.csproj.CoreCompileInputs.cache
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\obj\Debug\net8.0\customer1.dll
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\obj\Debug\net8.0\refint\customer1.dll
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\obj\Debug\net8.0\customer1.pdb
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\obj\Debug\net8.0\customer1.genruntimeconfig.cache
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\customer\customer1\obj\Debug\net8.0\ref\customer1.dll
