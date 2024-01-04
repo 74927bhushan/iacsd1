@@ -1,0 +1,28 @@
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\bin\Debug\net8.0\HRAPP.exe
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\bin\Debug\net8.0\HRAPP.deps.json
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\bin\Debug\net8.0\HRAPP.runtimeconfig.json
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\bin\Debug\net8.0\HRAPP.dll
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\bin\Debug\net8.0\HRAPP.pdb
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.AssemblyInfoInputs.cache
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.AssemblyInfo.cs
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.csproj.CoreCompileInputs.cache
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.dll
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\obj\Debug\net8.0\refint\HRAPP.dll
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.pdb
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.genruntimeconfig.cache
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day4\HRSolution\HRAPP\obj\Debug\net8.0\ref\HRAPP.dll
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\bin\Debug\net8.0\HRAPP.exe
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\bin\Debug\net8.0\HRAPP.deps.json
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\bin\Debug\net8.0\HRAPP.runtimeconfig.json
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\bin\Debug\net8.0\HRAPP.dll
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\bin\Debug\net8.0\HRAPP.pdb
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.AssemblyInfoInputs.cache
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.AssemblyInfo.cs
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.csproj.CoreCompileInputs.cache
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.dll
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\obj\Debug\net8.0\refint\HRAPP.dll
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.pdb
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\obj\Debug\net8.0\HRAPP.genruntimeconfig.cache
+C:\Users\choud\OneDrive\Desktop\MS DOT.NET\Day4-20240102T171351Z-001\Day4\HRSolution\HRAPP\obj\Debug\net8.0\ref\HRAPP.dll
