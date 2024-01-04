@@ -1,0 +1,14 @@
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\bin\Debug\net8.0\HDFCBankApp.exe
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\bin\Debug\net8.0\HDFCBankApp.deps.json
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\bin\Debug\net8.0\HDFCBankApp.runtimeconfig.json
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\bin\Debug\net8.0\HDFCBankApp.dll
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\bin\Debug\net8.0\HDFCBankApp.pdb
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\obj\Debug\net8.0\HDFCBankApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\obj\Debug\net8.0\HDFCBankApp.AssemblyInfoInputs.cache
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\obj\Debug\net8.0\HDFCBankApp.AssemblyInfo.cs
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\obj\Debug\net8.0\HDFCBankApp.csproj.CoreCompileInputs.cache
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\obj\Debug\net8.0\HDFCBankApp.dll
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\obj\Debug\net8.0\refint\HDFCBankApp.dll
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\obj\Debug\net8.0\HDFCBankApp.pdb
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\obj\Debug\net8.0\HDFCBankApp.genruntimeconfig.cache
+D:\Ravi\CDAC\PGDAC\IACSD\Sept23\Day5\BankingSolution\HDFCBankApp\obj\Debug\net8.0\ref\HDFCBankApp.dll
