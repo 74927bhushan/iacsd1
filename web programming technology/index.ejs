@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="/" method="post">
+        <input type="text" name="name" placeholder="enter value">
+        <input type="text" name="email" placeholder="enter value">
+        <input type="text" name="contact" placeholder="enter value">
+        <button type="submit">Add</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Contact</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% data.forEach(item => { %>
+                <tr>
+                    <td><%= item.name %></td>
+                    <td><%= item.email %></td>
+                    <td><%= item.contact %></td>
+                    <td>
+                        <form action="/delete/<%= item.id %>" method="post">
+                            <button type="submit">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            <% }); %>
+        </tbody>
+        
+    </table>
+
+</body>
+</html>
