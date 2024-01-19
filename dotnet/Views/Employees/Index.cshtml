@@ -1,0 +1,14 @@
+@using HRAPP.Entities;
+
+<h1>Employees List</h1>
+<hr/>
+
+@{
+//List<Employee> employees=(List<Employee>)ViewData["employees"];
+//List<Employee> employees=ViewBag.empList;
+List<Employee> employees=(List<Employee>)TempData["allEmployees"];
+
+    foreach(Employee emp in employees){
+        <p>@emp.FirstName @emp.LastName  <a href="/employees/details/@emp.Id">Details</a> | <a href="/employees/edit/@emp.Id">Edit</a> |<a href="/employees/delete/@emp.Id">Delete</a></p>
+    }
+}

@@ -1,0 +1,24 @@
+<canvas id="myChart3" style="width:100%;max-width:600px"></canvas>
+ <script>
+const xValues3 = ["Italy", "France", "Spain", "USA", "Argentina"];
+const yValues3 = [55, 49, 44, 24, 15];
+const barColors3 = ["red", "green","blue","orange","brown"];
+
+new Chart("myChart3", {
+  type: "pie",
+  data: {
+    labels: xValues3,
+    datasets: [{
+      backgroundColor: barColors3,
+      data: yValues3
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "World Wine Production 2018"
+    }
+  }
+});
+</script>

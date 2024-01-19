@@ -1,0 +1,24 @@
+<canvas id="myChart1" style="width:100%;max-width:600px"></canvas>
+ <script>
+const xValues1 = ["Italy", "France", "Spain", "USA", "Argentina"];
+const yValues1 = [55, 49, 44, 24, 15];
+const barColors1 = ["red", "green","blue","orange","brown"];
+
+new Chart("myChart1", {
+  type: "line",
+  data: {
+    labels: xValues1,
+    datasets: [{
+      backgroundColor: barColors1,
+      data: yValues1
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "World Wine Production 2018"
+    }
+  }
+});
+</script>
