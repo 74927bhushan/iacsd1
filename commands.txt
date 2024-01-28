@@ -1,0 +1,3 @@
+npx create-react-app my-app
+npm install -g json-server
+npm i react-router-dom@latest
